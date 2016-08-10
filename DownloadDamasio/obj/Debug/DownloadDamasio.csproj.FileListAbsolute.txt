@@ -1,0 +1,13 @@
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\bin\Debug\DownloadDamasio.exe.config
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\bin\Debug\DownloadDamasio.exe
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\bin\Debug\DownloadDamasio.pdb
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\MainWindow.baml
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\MainWindow.g.cs
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\App.g.cs
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio_MarkupCompile.cache
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio.g.resources
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio.Properties.Resources.resources
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio.csproj.GenerateResource.Cache
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio.exe
+c:\users\donato.ressa\documents\visual studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio.pdb
+C:\Users\donato.ressa\Documents\Visual Studio 2013\Projects\DownloadDamasio\DownloadDamasio\obj\Debug\DownloadDamasio.csprojResolveAssemblyReference.cache
