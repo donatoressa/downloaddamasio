@@ -1,0 +1,38 @@
+﻿<Window x:Class="DownloadDamasio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Download Streaming" Height="200" Width="550" Icon="LOGO_Damasio.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="22"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="22"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="22"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="22"/>
+        </Grid.ColumnDefinitions>
+        <Border Name="Processando" Grid.RowSpan="8" Grid.ColumnSpan="8" Background="Transparent" Visibility="Collapsed">
+            <Image Source="Processando.gif" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <TextBlock Name="msgErro" Foreground="Red" FontWeight="Bold" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left"/>
+        <TextBlock Name="msgSucesso" Foreground="Green" FontWeight="Bold" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Visibility="Collapsed"/>
+        
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Arquivo Entrada (formato .m3u8)" VerticalAlignment="Bottom"/>
+        <TextBlock Grid.Row="4" Grid.Column="1" Text="Arquivo Saída" VerticalAlignment="Bottom"/>
+        <Button Name="btnLimpar" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Content="Limpar Tudo" PreviewKeyDown="btnLimpar_PreviewKeyDown" PreviewMouseLeftButtonDown="btnLimpar_PreviewMouseLeftButtonDown"/>
+        <TextBox Name="txtArquivoEntrada" Grid.Row="3" Grid.Column="1" Width="500" Height="22" Grid.ColumnSpan="5" HorizontalAlignment="Left"/>
+        <Button Name="btnRun" PreviewKeyDown="btnRun_PreviewKeyDown" PreviewMouseLeftButtonDown="btnRun_PreviewMouseLeftButtonDown" Grid.Row="5" Grid.Column="5" HorizontalAlignment="Left" Content="Converter"/>
+        <TextBox Name="txtArquivoSaida" Grid.Row="5" Grid.Column="1"/>
+    </Grid>
+</Window>
